@@ -2,12 +2,35 @@
 
 Quickly setup git repository author details.
 
-## Install & run
+## Install
 
-Requires Golang for building packages!
+### Install for Mac
 
-1. Clone the repository
-2. Run `sh ./scripts/local.sh`
+```
+curl -sSfL https://raw.githubusercontent.com/tinydig/gitauthor/master/scripts/install.sh | sh -s v0.1.0-alpha.1 darwin
+
+gitauthor init
+```
+
+### Manually install for Mac
+
+Download the binary from release and put it in `/usr/local/bin`.
+
+### Install for Linux
+
+```
+curl -sSfL https://raw.githubusercontent.com/tinydig/gitauthor/master/scripts/install.sh | sh -s v0.1.0-alpha.1 linux
+
+gitauthor init
+```
+
+### Manually install for Linux
+
+Download the binary from release and put it in `/usr/local/bin`.
+
+### Install for Windows
+
+Download the binary and put it somewhere in your %path%.
 
 ## Commands
 | Command | Details | Example |
