@@ -7,7 +7,7 @@ Quickly setup git repository author details.
 ### Install for Mac
 
 ```
-curl -sSfL https://raw.githubusercontent.com/tinydig/gitauthor/master/scripts/install.sh | sh -s v0.1.0-alpha.1 darwin
+curl -sSfL https://raw.githubusercontent.com/tinydig/gitauthor/master/scripts/install.sh | sh -s v0.1.0-alpha.2 darwin
 
 gitauthor init
 ```
@@ -19,7 +19,7 @@ Download the binary from release and put it in `/usr/local/bin`.
 ### Install for Linux
 
 ```
-curl -sSfL https://raw.githubusercontent.com/tinydig/gitauthor/master/scripts/install.sh | sh -s v0.1.0-alpha.1 linux
+curl -sSfL https://raw.githubusercontent.com/tinydig/gitauthor/master/scripts/install.sh | sh -s v0.1.0-alpha.2 linux
 
 gitauthor init
 ```
